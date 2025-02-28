@@ -30,32 +30,69 @@ namespace LojaABC
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSplash));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pctLOGO = new System.Windows.Forms.PictureBox();
+            this.lgbNumero = new System.Windows.Forms.Label();
+            this.lgbPorcentagem = new System.Windows.Forms.Label();
+            this.PGB = new System.Windows.Forms.ProgressBar();
+            ((System.ComponentModel.ISupportInitialize)(this.pctLOGO)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pctLOGO
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(143, 23);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(512, 512);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pctLOGO.Image = ((System.Drawing.Image)(resources.GetObject("pctLOGO.Image")));
+            this.pctLOGO.Location = new System.Drawing.Point(288, 155);
+            this.pctLOGO.Name = "pctLOGO";
+            this.pctLOGO.Size = new System.Drawing.Size(266, 202);
+            this.pctLOGO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctLOGO.TabIndex = 0;
+            this.pctLOGO.TabStop = false;
+            // 
+            // lgbNumero
+            // 
+            this.lgbNumero.AutoSize = true;
+            this.lgbNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lgbNumero.Location = new System.Drawing.Point(402, 360);
+            this.lgbNumero.Name = "lgbNumero";
+            this.lgbNumero.Size = new System.Drawing.Size(18, 20);
+            this.lgbNumero.TabIndex = 1;
+            this.lgbNumero.Text = "0";
+            this.lgbNumero.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // lgbPorcentagem
+            // 
+            this.lgbPorcentagem.AutoSize = true;
+            this.lgbPorcentagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lgbPorcentagem.Location = new System.Drawing.Point(415, 360);
+            this.lgbPorcentagem.Name = "lgbPorcentagem";
+            this.lgbPorcentagem.Size = new System.Drawing.Size(23, 20);
+            this.lgbPorcentagem.TabIndex = 2;
+            this.lgbPorcentagem.Text = "%";
+            this.lgbPorcentagem.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // PGB
+            // 
+            this.PGB.Location = new System.Drawing.Point(288, 383);
+            this.PGB.Name = "PGB";
+            this.PGB.Size = new System.Drawing.Size(266, 25);
+            this.PGB.TabIndex = 3;
             // 
             // frmSplash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.PGB);
+            this.Controls.Add(this.lgbPorcentagem);
+            this.Controls.Add(this.lgbNumero);
+            this.Controls.Add(this.pctLOGO);
+            this.Font = new System.Drawing.Font("Bell MT", 8.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmSplash";
-            this.Text = "LojaABC";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "b";
+            this.Load += new System.EventHandler(this.frmSplash_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pctLOGO)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -63,6 +100,9 @@ namespace LojaABC
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pctLOGO;
+        private System.Windows.Forms.Label lgbNumero;
+        private System.Windows.Forms.Label lgbPorcentagem;
+        private System.Windows.Forms.ProgressBar PGB;
     }
 }
