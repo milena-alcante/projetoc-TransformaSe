@@ -1,0 +1,10 @@
+C:\Users\milena.alaciole\Documents\Visual Studio 2019\Transformase\LojaABC\bin\Debug\LojaABC.exe.config
+C:\Users\milena.alaciole\Documents\Visual Studio 2019\Transformase\LojaABC\bin\Debug\LojaABC.exe
+C:\Users\milena.alaciole\Documents\Visual Studio 2019\Transformase\LojaABC\bin\Debug\LojaABC.pdb
+C:\Users\milena.alaciole\Documents\Visual Studio 2019\Transformase\LojaABC\obj\Debug\LojaABC.csproj.AssemblyReference.cache
+C:\Users\milena.alaciole\Documents\Visual Studio 2019\Transformase\LojaABC\obj\Debug\LojaABC.Properties.Resources.resources
+C:\Users\milena.alaciole\Documents\Visual Studio 2019\Transformase\LojaABC\obj\Debug\LojaABC.csproj.GenerateResource.cache
+C:\Users\milena.alaciole\Documents\Visual Studio 2019\Transformase\LojaABC\obj\Debug\LojaABC.csproj.CoreCompileInputs.cache
+C:\Users\milena.alaciole\Documents\Visual Studio 2019\Transformase\LojaABC\obj\Debug\LojaABC.exe
+C:\Users\milena.alaciole\Documents\Visual Studio 2019\Transformase\LojaABC\obj\Debug\LojaABC.pdb
+C:\Users\milena.alaciole\Documents\Visual Studio 2019\Transformase\LojaABC\obj\Debug\LojaABC.frmSplash.resources
