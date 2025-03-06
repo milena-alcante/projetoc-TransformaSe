@@ -177,26 +177,28 @@ namespace LojaABC
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(700, 526);
+            this.button8.Location = new System.Drawing.Point(696, 526);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(71, 24);
+            this.button8.Size = new System.Drawing.Size(76, 24);
             this.button8.TabIndex = 22;
+            this.button8.Text = "Próximo";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // BTNvoltar
             // 
-            this.BTNvoltar.Location = new System.Drawing.Point(623, 525);
+            this.BTNvoltar.Location = new System.Drawing.Point(606, 526);
             this.BTNvoltar.Name = "BTNvoltar";
-            this.BTNvoltar.Size = new System.Drawing.Size(71, 24);
+            this.BTNvoltar.Size = new System.Drawing.Size(84, 23);
             this.BTNvoltar.TabIndex = 23;
             this.BTNvoltar.Text = "&Voltar";
             this.BTNvoltar.UseVisualStyleBackColor = true;
+            this.BTNvoltar.Click += new System.EventHandler(this.BTNvoltar_Click);
             // 
             // frmMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.BTNvoltar);
             this.Controls.Add(this.button8);
@@ -209,6 +211,7 @@ namespace LojaABC
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.btnFUNCIONARIOS);
+            this.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMenuPrincipal";
             this.Text = "Loja - Menu Principal";
